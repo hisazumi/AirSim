@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 // clang-format off
 /*
   sha-256 implementation for MAVLink based on Heimdal sources, with
