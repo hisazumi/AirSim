@@ -13,5 +13,10 @@ public class BlocksTarget : TargetRules
 		//bUseUnityBuild = false;
 		if (Target.Platform == UnrealTargetPlatform.Linux)
 			bUsePCHFiles = false;
+
+   		// fix compile errors
+		bOverrideBuildEnvironment = true;
+		AdditionalCompilerArguments = "-Wno-unused-but-set-variable -Wno-bitwise-instead-of-logical -Wno-unused-but-set-variable";
+
 	}
 }
