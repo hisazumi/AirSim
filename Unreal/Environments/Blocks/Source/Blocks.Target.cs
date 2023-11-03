@@ -16,7 +16,7 @@ public class BlocksTarget : TargetRules
 
    		// fix compile errors
 		bOverrideBuildEnvironment = true;
-		AdditionalCompilerArguments = "-Wno-unused-but-set-variable -Wno-bitwise-instead-of-logical -Wno-unused-but-set-variable";
-
+		AdditionalCompilerArguments = "-Wno-unused-but-set-variable -Wno-bitwise-instead-of-logical -Wno-unused-but-set-variable -Wno-deprecated-builtins -Wno-single-bit-bitfield-constant-conversion";
+";
 	}
 }
